@@ -14,7 +14,7 @@
 
   <body>
     <!-- the entire body must be written by student -->
-    <form action="/action_page.php" method="get">
+    <form action="/action_page.php" method="post">
       <h2>Car Insurance Form</h2>
       <label for="name">Name:</label><br />
       <input
@@ -47,13 +47,13 @@
         required
       /><br /><br />
       <label for="dateofpurchase">Date of Purchase(dop) </label><br />
-      <input type="date" name="date" id="dop" required /><br /><br />
+      <input class="dop" type="date" name="date" id="dop" required /><br /><br />
       <label for="password">Paasword:</label><br />
       <input
         type="password"
         id="password"
         placeholder="Enter Password"
-      /><br /><br />
+      /><br/><br />
       <!-- <input type="submit" value="Submit"/> -->
 	  <button type="submit">Submit</button>
     </form>
